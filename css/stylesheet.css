@@ -6,8 +6,8 @@ html {
 
 body {
 	width: 900px;
-	margin: 1em auto;
-	margin-top: 1em;
+	
+	margin-top: 0;
     margin-right: auto;
     margin-bottom: 100;
     margin-left: auto;
@@ -16,11 +16,9 @@ body {
 	
 
 }
-img{
-	height: 200;
-	width:200;
 
-}
+
+
 h1{
 	font-weight: 100;
 }
@@ -50,14 +48,79 @@ a {
   -moz-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
   text-decoration: none;
-}
-.proyecto1{
 
-	position: relative;
-    
+
+
 }
-.proyecto2{
-position: relative;
-    left: 205px;
-    top: -205px;	
+.banner{
+	text-align: center;
+	background-color: #9AB3AF;
+	width: 100%;
+	height: 340px;
+	min-width: 700px;
+    margin:0;
+	position:absolute;
+	left: 0px;
+    top: 0px;
 }
+.banner h1{
+	color: #ffffff;
+	margin-top: 15%;
+	margin-right: 42%;
+	margin-left:42%;
+}
+.padre{
+	position: absolute;
+    margin-top: 335px;
+   width: 100%;
+    margin-left: 5%;
+    margin-right: 0;
+   transition: all 0.55s ease-out;
+  -webkit-transition: all 0.55s ease-out;
+  -moz-transition: all 0.55s ease-out;
+
+
+}
+.boton1, .boton2, .boton3, .boton4, .boton5{
+	float: left;;
+	width: 150px;
+	height: 30px;
+    text-align: center;
+    background-color: #399E91;
+	margin-right: 1%;
+	margin-top: 5px;
+    line-height: 25px;
+}
+.padre a{
+color: #ffffff;
+font-weight: 300;
+font-size: 14;	
+
+}
+.boton1:hover{
+	background-color: #3ABAAA;
+}
+.boton2:hover{
+	background-color: #3ABAAA;
+}
+.boton3:hover{
+	background-color: #3ABAAA;
+}
+.boton4:hover{
+	background-color: #3ABAAA;
+}
+.boton5:hover{
+	background-color: #3ABAAA;
+}
+
+
+
+a:hover, a:focus, a:active { 
+	
+	 
+	color: #ffffff;
+	
+	}
+
+
+
