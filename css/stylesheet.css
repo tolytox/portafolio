@@ -5,14 +5,14 @@ html {
 
 
 body {
-	width: 900px;
+	width: 700px;
 	
-	margin-top: 0;
+	margin-top: 430px;
     margin-right: auto;
     margin-bottom: 100;
     margin-left: auto;
 	font-family: 'Roboto', sans-serif;
-	background-color: #E6EFF2;
+	background-color: #ffffff;
 	
 
 }
@@ -25,17 +25,23 @@ h1{
 
 h3{
 	
-	margin-top: 50;
-	font-weight: 400;
+	margin-top: 100;
+	font-weight: 100;
 	font-size: 30px;
+	text-align: center;
+	letter-spacing:0.1ex;
 }
 
 p{
     font-weight: 300;
-    margin-top: 10; 
+    margin-top: -1.5ex; 
+    text-align: justify;
+	font-size: 17px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height:3ex;
 
-	text-align: justify;
-	font-size: 20px;	
 }
 ul{
 	font-size: 20px;
@@ -48,13 +54,16 @@ a {
   -moz-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
   text-decoration: none;
-
-
-
 }
+a:hover, a:focus, a:active { 
+color: #ffffff;
+}
+
+
+
 .banner{
 	text-align: center;
-	background-color: #9AB3AF;
+	background-color: #C1D4D1;	
 	width: 100%;
 	height: 340px;
 	min-width: 700px;
@@ -71,9 +80,9 @@ a {
 }
 .padre{
 	position: absolute;
-    margin-top: 335px;
+   top: 335px;
    width: 100%;
-    margin-left: 5%;
+    left: 20%;
     margin-right: 0;
    transition: all 0.55s ease-out;
   -webkit-transition: all 0.55s ease-out;
@@ -113,14 +122,63 @@ font-size: 14;
 	background-color: #3ABAAA;
 }
 
-
-
-a:hover, a:focus, a:active { 
+.padre2{
+	height: 300px;
+	width: 100%;
 	
-	 
-	color: #ffffff;
+	 transition: all 0.55s ease-out;
+  -webkit-transition: all 0.55s ease-out;
+  -moz-transition: all 0.55s ease-out;
+}
+
+.link1, .link2{
+width: 47.5%;
+height: 280px;	
+float: left;
+background-color: #C1D4D1;
+margin-top: 1ex;
+margin-left: 1ex;
+margin-right: 1ex;
+text-align: center;	
+line-height: 270px;
+}
+.link1:hover{
+	background-color: #DFF2F0;
+
+}
+.link2:hover{
+	background-color: #DFF2F0;
+
+}
+
+.padre3{
+	height: 300px;
+	width: 100%;
 	
-	}
+	 transition: all 0.55s ease-out;
+  -webkit-transition: all 0.55s ease-out;
+  -moz-transition: all 0.55s ease-out;
+}
+
+.link3, .link4{
+width: 47.5%;
+height: 280px;	
+float: left;
+background-color: #C1D4D1;
+margin-top: 1ex;
+margin-left: 1ex;
+margin-right: 1ex;
+text-align: center;	
+line-height: 270px;
+}
+.link3:hover{
+	background-color: #DFF2F0;
+
+}
+.link4:hover{
+	background-color: #DFF2F0;
+
+}
 
 
 
