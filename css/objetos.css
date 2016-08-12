@@ -1,5 +1,3 @@
-
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, 
 blockquote, pre, a, abbr, acronym, address, big,
@@ -57,7 +55,9 @@ hr {
     
      background-color: #F1463D;
      height: 1px;
-     width: 29%;
+     width: 100%;
+     margin-top: 0;
+     margin-bottom: 0;
      border-color: #F1463D;
      border: 0;
 }
@@ -69,6 +69,15 @@ p{
      font-size: 1em;
      color: #000000;
      letter-spacing: 0.08ex;
+}
+span{
+     font-weight: 700;
+     font-family: 'Roboto Slab', serif;
+     line-height: 2.7ex;
+     font-size: 1em;
+     color: #000000;
+     letter-spacing: 0.08ex;
+
 }
 h1{
      font-family: 'Galada', cursive;
@@ -83,101 +92,58 @@ h2 {
      line-height: 3ex;
      font-size: 2.25em;
      color: #000000;
-
 }
 .container{
      width: 100%;
      margin-left:auto;
      margin-right: auto;
+     margin-top: 10px;
      display: flex;
       flex-direction: column; 
       align-content:center;
 
 }
-
-.banner{
-     width: 95.7%;
-     
-     position: relative;
-     margin-left: auto;
-     margin-right: auto;
-     display: flex;
-      flex-direction: row; 
-       
-}
-.banner h1{
-     line-height: 110px;
-}
-
-
-.banner hr{
- margin-top: 50px;    
-}
-
-
+.head{
+    width: 95.7%;
+    height: 80px;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
     
 
-.name1,.name2,.name3{
-     left: 30px;
-     float: left;
-     width: 40.7%;
-     height: 80px;
-     
-     margin-right: 5px;
-     margin-top: 0px;
-     text-align: center;
-     line-height: 100px;
-     min-width: 200px;
- }
+}
 
-      
-.name2{
-     width: 17.2%;
-     align-self: center;
-     min-width: 200px;
+.ruta{
      display: flex;
-     flex-direction: row;
-
-}
-.name1 h1{
-    
-     text-align: right;
-}
-.name3 h1{
-     
+     width: 46%;
+     height: 50%;
      text-align: left;
-}
+     /*background-color: #90C3D4;*/
+     align-self: flex-start;
 
-@media only screen and (max-width:  700px) {
-    /* For mobile phones: */
-    .name1,.name2,.name3{
-        width: 100%;
-        background-color: none;
-        font-size: 1.7ex;
+}
+.ruta p{
+     font-size: 2ex;
+     font-weight: 300;
+     margin-left: 0.6%;
+   
 
-    }
-    .name1 p{
-    
-     text-align: center;
-}
-.name3 p{
-     
-     text-align: center;
-}
-    .banner{
-     flex-direction: column;
-    }
+
 }
 
 .logo{
- background: url("../img/logo.png") repeat-x left top;
+     display: flex;
+    align-self: center; 
+      background: url("../img/logo.png") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    width: 70px;
    height: 70px;
-   margin-top: 10px;
+   
    -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
@@ -186,100 +152,121 @@ h2 {
      border: 1px;
      border-style: solid;
      border-color:rgba(241,70,61,0);
-
 }
-
 .menu{
-width: 95.7%;
-margin-left: auto;
-margin-right: auto;
-position: relative;  
-flex-direction:column;
-justify-content: center;  
-}
-
-.menu p{
-     font-weight: 400;
-     margin-right: 15px;
-     margin-left: 15px;
-     
-   
-
-
-}
- 
-.opcion1,.opcion2,.opcion3,.opcion4,.opcion5{
-     float: left;
-     width: 19.4%;
-     height: 500px;
-     background-color: #90C3D4;
-     margin-right: 0.6%;
-     margin-top: 0.6%;
-     text-align: center;
-     min-width: 200px;
-     margin-bottom:0.6%; 
-}
-.opcion1{
-  background: url("../img/home/objetos.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-}  
-
-.opcion2{
-  background: url("../img/home/editorial.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-} 
-.opcion3{
-  background: url("../img/home/interaccion.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-} 
-.opcion5{
-  background: url("../img/home/ilustracion.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-} 
-
-.recuadro1, .recuadro2, .recuadro3, .recuadro4, .recuadro5{
-     width: 100%;
-     height: 100%; 
-     background-color:rgba(255,255,255,0);
+     width: 46%;
+     height: 50%;
+     flex-direction: row;
      display: flex;
+     justify-content: center;
+     right: 0;
+     /*background-color: #90C3D4;*/
+     align-self: flex-end;
+
+
 }
-
-
-.texto1, .texto1b,.texto1c,.texto1d,.texto1e{
-     width: 100%;
-     height: 45px;
-     background-color:rgba(255,255,255,0.44); 
-     margin-top: 40%;
+.opcion{
      
+     width: 24%;
+     height: 30px;
+     text-align: center;
+     margin-right: 0.6%;
+     float: left;
+     
+     display: flex;
+     align-self: flex-end;
+     align-items: center;
+   }
+.opcion p{
+     text-align: center;
+     font-weight: 300;
+}
+.titulo{
+
+     width: 37.7%;
+     height: 60px;
+     
+     margin-top: 0px;
+     margin-left: 2.15%;
+     display: flex;
+     align-self: flex-start;
+     margin-bottom: 20px;
+
+}
+.titulo h1{
+     line-height: 70px;
+
+}
+.contenedor1,.contenedor2,.contenedor3{
+     display: flex;
+     align-self: center;
+    align-items: center;
+     width: 95.7%;
+     height: 460px;
+     margin-top: 4px;
+     margin-bottom: 4px;
+     /*background-color: #90C3D4;*/
+     
+
+
+}
+.contenedor1{
+     margin-top: 0px;
+}
+.linea{
+    align-self: flex-end;
+
+
+}
+.texto{
+ display: flex;    
+ flex-direction: column;
+ width: 39.4%;
+ height: 400px;
+ margin-right: 0.6%;
+ /* background-color: #D4A190;*/
+     }
+.titulo1,.titulo2,.titulo3{
+     width: 100%;
+     align-self: flex-start;
+     display: flex;
+
 }
 
-.texto2,.texto3,.texto4,.texto5,.texto6 {
-color:rgba(0,0,0,0);
-margin-top: 0%;    
-
+.imagen1{
+   background: url("../img/objetos/MantoD2.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 60%;
+   height: 400px;
+   display: flex;
 }
 
+.imagen2{
+   background: url("../img/objetos/teselar.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 60%;
+   height: 400px;
+}
 
-
-
-
-
-
+.imagen3{
+   background: url("../img/objetos/plegable.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 60%;
+   height: 400px;
+}
 .parte_baja{
 margin-left: auto;
 margin-right: auto;
+margin-top: 5px;
 width: 95.7%;
 height:150px;
 position: relative;
@@ -301,7 +288,7 @@ justify-content: center;
 
 .boton1{
      
-background-color:#F1463D;
+/*background-color:#F1463D;*/
 width: 12.8%;
 height: 30px;
 float: left;
@@ -353,5 +340,4 @@ justify-content: center;
      background: #ffffff m;
      margin-right: 0.6%;
 }
-
 
