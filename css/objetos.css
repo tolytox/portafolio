@@ -62,76 +62,88 @@ hr {
      border: 0;
 }
 
+
 p{
-     font-weight: 400;
+     font-weight: 300;
      font-family: 'Roboto Slab', serif;
      line-height: 2.7ex;
-     font-size: 1em;
+     font-size: 13px;
      color: #000000;
      letter-spacing: 0.08ex;
+     
+     
 }
 span{
      font-weight: 700;
-     font-family: 'Roboto Slab', serif;
-     line-height: 2.7ex;
-     font-size: 1em;
+      font-family: 'Roboto Slab', serif;
+     line-height: 1px;
+     font-size: 15px;
      color: #000000;
-     letter-spacing: 0.08ex;
+     letter-spacing: 0.09ex;
+     margin-right: 1%;
+     
 
 }
-h1{
-     font-family: 'Galada', cursive;
+h2{
+    
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
      font-size: 3em;
-     color: #252525;
+     color: #ffffff;
       line-height: 1ex;
+      text-align: left;
 }
 
-h2 {
-     font-weight: 100;
-      font-family: 'Galada', cursive;
+h3 {
+     font-weight: 200;
+     font-family: 'Raleway', sans-serif;
+     
      line-height: 3ex;
-     font-size: 2.25em;
+     font-size: 30px;
      color: #000000;
+     margin-top: 0;
+
 }
+
+a{
+ text-decoration: none;
+ 
+}
+
+
 .container{
      width: 100%;
      margin-left:auto;
      margin-right: auto;
-     margin-top: 10px;
+     margin-top: 0px;
      display: flex;
       flex-direction: column; 
       align-content:center;
 
 }
 .head{
-    width: 95.7%;
-    height: 80px;
+    width: 100%;
+    height: 70px;
+    background-color: #F93A5A;
     display: flex;
     align-self: center;
     flex-direction: row;
     justify-content: space-between;
-    
-    
-
 }
 
 .ruta{
      display: flex;
      width: 46%;
-     height: 50%;
+     height: 100%;
      text-align: left;
-     /*background-color: #90C3D4;*/
-     align-self: flex-start;
-
+     
 }
-.ruta p{
-     font-size: 2ex;
-     font-weight: 300;
-     margin-left: 0.6%;
-   
 
-
+.ruta h2{
+     margin-left: 5%;
+     margin-top: 20px;
 }
+
 
 .logo{
      display: flex;
@@ -141,8 +153,8 @@ h2 {
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   width: 70px;
-   height: 70px;
+   width: 60px;
+   height: 60px;
    
    -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
@@ -156,82 +168,98 @@ h2 {
 .menu{
      width: 46%;
      height: 50%;
+     margin-top: 20px;
      flex-direction: row;
      display: flex;
-     justify-content: center;
-     right: 0;
+     justify-content: space-between;
      /*background-color: #90C3D4;*/
-     align-self: flex-end;
-
-
+     }
+.menu p{
+color: #ffffff;
+     
 }
 .opcion{
-     
      width: 24%;
      height: 30px;
-     text-align: center;
      margin-right: 0.6%;
      float: left;
      
      display: flex;
-     align-self: flex-end;
-     align-items: center;
-   }
-.opcion p{
-     text-align: center;
-     font-weight: 300;
-}
-.titulo{
-
-     width: 37.7%;
-     height: 60px;
      
-     margin-top: 0px;
-     margin-left: 2.15%;
-     display: flex;
-     align-self: flex-start;
-     margin-bottom: 20px;
+     justify-content: center;
+      }
 
-}
-.titulo h1{
-     line-height: 70px;
 
+.opcion p{
+     font-weight: 400;
+     font-size: 15px;
+     margin-right: 20px;
+     align-self: center;
 }
+
+.opcion a{
+     font-weight: 400;
+     font-size: 15px;
+     margin-right: 20px;
+     align-self: center;
+}
+
+.opcion p:hover{
+     font-weight: 400;
+     font-size: 15px;
+     margin-right: 20px;
+     align-self: center;
+     color: #252525;
+
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
+}
+
+
+
 .contenedor1,.contenedor2,.contenedor3{
+    
+     width: 95.7%;
+     height: 470px;
+     margin-top: 70px;
+     margin-bottom: 0px;
+     /* background-color: #90C3D4;*/
+     
      display: flex;
      align-self: center;
-    align-items: center;
-     width: 95.7%;
-     height: 460px;
-     margin-top: 4px;
-     margin-bottom: 4px;
-     /*background-color: #90C3D4;*/
      
-
-
-}
+     }
 .contenedor1{
-     margin-top: 0px;
+     margin-top: 40px;
 }
-.linea{
-    align-self: flex-end;
 
-
-}
 .texto{
  display: flex;    
  flex-direction: column;
  width: 39.4%;
  height: 400px;
- margin-right: 0.6%;
- /* background-color: #D4A190;*/
+ margin-right: 3%;
+/*background-color: #D4A190;*/
      }
 .titulo1,.titulo2,.titulo3{
      width: 100%;
      align-self: flex-start;
      display: flex;
-
+     
+     
 }
+.titulo1 h2{
+    margin-top: -7px;
+}
+.parrafo{
+     margin-bottom: 35px;
+     margin-top: 5px;
+}
+
 
 .imagen1{
    background: url("../img/objetos/MantoD2.jpg") repeat-x left top;
@@ -340,4 +368,7 @@ justify-content: center;
      background: #ffffff m;
      margin-right: 0.6%;
 }
+
+
+
 
