@@ -70,7 +70,15 @@ p{
      color: #000000;
      letter-spacing: 0.08ex;
 }
+span{
+     font-weight: 700;
+     font-family: 'Roboto Slab', serif;
+     line-height: 2.7ex;
+     font-size: 1em;
+     color: #000000;
+     letter-spacing: 0.08ex;
 
+}
 h1{
      font-family: 'Galada', cursive;
      font-size: 3em;
@@ -78,76 +86,43 @@ h1{
       line-height: 1ex;
 }
 
-span{
-     font-weight: 700;
-      font-family: 'Roboto Slab', serif;
-     line-height: 1px;
-     font-size: 15px;
+h2 {
+     font-weight: 100;
+      font-family: 'Galada', cursive;
+     line-height: 3ex;
+     font-size: 2.25em;
      color: #000000;
-     letter-spacing: 0.09ex;
-     margin-right: 1%;
-     
-
-}
-h2{
-    
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-     font-size: 3em;
-     color: #ffffff;
-      line-height: 1ex;
-      text-align: left;
-}
-
-h3 {
-     font-weight: 400;
-     font-family: 'Roboto Slab', serif;
-     
-     line-height: 1em;
-     font-size: 25px;
-     color: #000000;
-     margin-top: 0;
-
-}
-
-a{
- text-decoration: none;
- 
-}
-.container{
-     width: 100%;
-     margin-left:auto;
-     margin-right: auto;
-     margin-top: 0px;
-     display: flex;
-      flex-direction: column; 
-      align-content:center;
-
 }
 
 .head{
-    width: 100%;
-    height: 70px;
-    background-color: #F93A5A;
+    width: 95.7%;
+    height: 80px;
     display: flex;
     align-self: center;
     flex-direction: row;
     justify-content: space-between;
+    
+    
+
 }
 
 .ruta{
      display: flex;
      width: 46%;
-     height: 100%;
+     height: 50%;
      text-align: left;
-     
-}
+     /*background-color: #90C3D4;*/
+     align-self: flex-start;
 
-.ruta h2{
-     margin-left: 5%;
-     margin-top: 20px;
 }
+.ruta p{
+     font-size: 2ex;
+     font-weight: 300;
+     margin-left: 0.6%;
+   
 
+
+}
 
 .logo{
      display: flex;
@@ -157,8 +132,8 @@ a{
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   width: 60px;
-   height: 60px;
+   width: 70px;
+   height: 70px;
    
    -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
@@ -172,434 +147,44 @@ a{
 .menu{
      width: 46%;
      height: 50%;
-     margin-top: 20px;
      flex-direction: row;
      display: flex;
-     justify-content: space-between;
+     justify-content: center;
+     right: 0;
      /*background-color: #90C3D4;*/
-     }
-.menu p{
-color: #ffffff;
-     
+     align-self: flex-end;
+
+
 }
 .opcion{
+     
      width: 24%;
      height: 30px;
+     text-align: center;
      margin-right: 0.6%;
      float: left;
      
      display: flex;
-     
-     justify-content: center;
-      }
-
-
-.opcion a{
-     font-weight: 400;
-     font-size: 15px;
-     margin-right: 20px;
-     align-self: center;
-}
-
+     align-self: flex-end;
+     align-items: center;
+   }
 .opcion p{
-     font-weight: 400;
-     font-size: 15px;
-     margin-right: 20px;
-     align-self: center;
+     text-align: center;
+     font-weight: 300;
 }
+.titulo{
 
-.opcion p:hover{
-     font-weight: 400;
-     font-size: 15px;
-     margin-right: 20px;
-     align-self: center;
-     color: #252525;
-
-
--webkit-transition: all 0.5s ease;
--moz-transition: all 0.5s ease;
--ms-transition: all 0.5s ease;
--o-transition: all 0.5s ease;
-transition: all 0.5s ease; 
-}
-
-.titulo1{
-      width: 95.7%;
-     height: 35px;
-      /*background-color:#F1463D;*/
-     margin-top: 10px;
+     width: 37.7%;
+     height: 60px;
+     
+     margin-top: 0px;
      margin-left: 2.15%;
      display: flex;
      align-self: flex-start;
-     margin-bottom: 0px;
-
-      border-width: 0px 0px 1px 0px;
-     border-color: #F1463D;
-     border-style:solid;
-}
-
-.contenedor1{
-    /*background-color:#F1463D;*/
-    width:  95.7%;
-    align-self: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom:40px;
- }
-
-.imagen1,.imagen2,.imagen3,.imagen4,.imagen5,.imagen6,.imagen7,.imagen8,.imagen9{
-  width: 29%;
-  height: 473px; 
-  margin-top: 30px; 
-  display: flex; 
-  float: left;
-
-  border-width: 1px 1px 1px 1px;
-     border-color: #F1463D;
-     border-style:solid; 
-}
-.recuadro{
-     background-color: rgba(255,255,255,0.8);
-     width: 100%;
-     height: 0px;
-     display: flex;
-     align-self: flex-start;
-     flex-direction: column;
-
-     padding-right: 10px;
-     padding-left: 10px;
-
-
-     -webkit-transition: all 0.5s ease;
--moz-transition: all 0.5s ease;
--ms-transition: all 0.5s ease;
--o-transition: all 0.5s ease;
-transition: all 0.5s ease; 
-}
-
-.recuadro h3{
-     margin-bottom: 10px;
-     margin-top: 10px;
+     margin-bottom: 20px;
 
 }
-.recuadro span{
-     margin-top: 0;
-     margin-bottom: 0;
-}
-.recuadro p{
-     margin-top: 3px;
-     margin-bottom: 0;
-}
-
-.imagen1{
-    
-       background: url("../img/ilustracion/tradicional/chica-de-rubia.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-
-     background-color: #ffffff;
-     float: left;
-     display: flex;
-     order: 1;
-     
-     
-}
-
-
-.imagen2{
-     
- background: url("../img/ilustracion/tradicional/star-galxy.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   order: 1;
-    
-    
-}
-
-.imagen3{
-     width: 29%;
-     height: 473px;
-        background: url("../img/ilustracion/tradicional/demon-girl.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-     
-     order: 1;
-     
-    
-     
-}
-
-.imagen4{
-     
-        background: url("../img/ilustracion/tradicional/first.png") repeat-x center;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-     order: 2;
- 
-}
-
-.imagen5{
-  
-        background: url("../img/ilustracion/tradicional/green.png") repeat-x center;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-     order: 2;
-     
-
-    
-     
-}
-
-.imagen6{
-    
-        background: url("../img/ilustracion/tradicional/totoro-watercolor.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-     order: 2;
-    
-}
-
-.imagen7{
-  
-        background: url("../img/ilustracion/tradicional/obeja.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-   
-    order: 3;
+.titulo h1{
+     line-height: 70px;
 
 }
-
-.imagen8{
-  
-        background: url("../img/ilustracion/tradicional/tamago-girl.png") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-  order: 3;
-
-   }
-
-.imagen9{
-  
-       /* background: url("../img/ilustracion/tradicional/tamago-girl.png") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;*/
-   
-     background-color: #ffffff;
-  order: 3;
-
-   }   
-
-.titulo2{
-      width: 95.7%;
-     height: 35px;
-      /*background-color:#F1463D;*/
-     margin-top: 40px;
-     margin-left: 2.15%;
-     display: flex;
-     align-self: flex-start;
-     margin-bottom: 0px;
-
-      border-width: 0px 0px 1px 0px;
-     border-color: #F1463D;
-     border-style:solid;
-}   
-
-
-.contenedor2{
-     display: flex;
-     margin-top: 40px;
-      width:  95.7%;
-    align-self: center;
-    
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom:40px;
-}
-
-.imagen1b,.imagen2b,.imagen3b,.imagen4b,.imagen5b,.imagen6b,.imagen7b,.imagen8b,.imagen9b,.imagen10b{
-  width: 29%;
-  height: 473px; 
-  margin-top: 30px; 
-  float: left;
-
-  border-width: 1px 1px 1px 1px;
-     border-color: #F1463D;
-     border-style:solid; 
-}
-
-
-.imagen1b{
-    
-       background: url("../img/ilustracion/digital/badgirl.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-
-     background-color: #ffffff;
-     float: left;
-     display: flex;
-     order: 1;
-     
-     
-}
-
-
-.imagen2b{
-     
- background: url("../img/ilustracion/digital/star-fire.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   order: 1;
-    
-    
-}
-
-.imagen3b{
-     width: 29%;
-     height: 473px;
-        background: url("../img/ilustracion/digital/chica-robot.jpg") repeat-x right top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-     
-     order: 1;
-     
-    
-     
-}
-
-.imagen4b{
-     
-        background: url("../img/ilustracion/digital/desfio-loco.jpg") repeat-x center;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-     order: 2;
- 
-}
-
-.imagen5b{
-  
-        background: url("../img/ilustracion/digital/girl-blue.jpg") repeat-x center;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-     order: 2;
-     
-
-    
-     
-}
-
-.imagen6b{
-    
-   background: url("../img/ilustracion/digital/red-woman.jpg") repeat-x center;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-     order: 2;
-    
-}
-
-.imagen7b{
-  
-        background: url("../img/ilustracion/digital/purple-girl.jpg") repeat-x center;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-   
-    order: 3;
-
-}
-
-.imagen8b{
-  
-        background: url("../img/ilustracion/digital/totoro.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   
-     background-color: #ffffff;
-  order: 3;
-
-   }
-
-.imagen9b{
-  
-  background: url("../img/ilustracion/digital/kacchan.jpg") repeat-x center;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;*/
-   
-     background-color: #ffffff;
-  order: 3;
-
-   } 
-
-   .imagen10b{
-  
-  background: url("../img/ilustracion/digital/boobs-and-girl.jpg") repeat-x center;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;*/
-   
-     background-color: #ffffff;
-  order: 4;
-
-   } 
-
-
