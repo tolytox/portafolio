@@ -282,20 +282,45 @@ transition: all 0.5s ease;
 .recuadro h3{
      margin-bottom: 10px;
      margin-top: 10px;
+     color: rgba(0,0,0,0);
 
+       -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
 }
+
+
 .recuadro span{
      margin-top: 0;
      margin-bottom: 0;
+     color: rgba(0,0,0,0);
+     
+
+       -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
 }
+
 .recuadro p{
      margin-top: 3px;
      margin-bottom: 0;
+     color: rgba(0,0,0,0);
+
+       -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
 }
+
 
 .imagen1{
     
-       background: url("../img/ilustracion/tradicional/chica-de-rubia.jpg") repeat-x left top;
+       background: url("http://pre05.deviantart.net/52fa/th/pre/i/2016/235/7/9/chica_de_rubia_by_tolytomas-daf045l.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -312,7 +337,7 @@ transition: all 0.5s ease;
 
 .imagen2{
      
- background: url("../img/ilustracion/tradicional/star-galxy.jpg") repeat-x left top;
+ background: url("http://pre14.deviantart.net/913d/th/pre/i/2016/235/a/b/star_galxy_by_tolytomas-daf04a5.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -325,7 +350,7 @@ transition: all 0.5s ease;
 .imagen3{
      width: 29%;
      height: 473px;
-        background: url("../img/ilustracion/tradicional/demon-girl.jpg") repeat-x left top;
+        background: url("http://pre04.deviantart.net/e76e/th/pre/i/2016/235/b/1/demon_girl_by_tolytomas-daf046c.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -341,7 +366,7 @@ transition: all 0.5s ease;
 
 .imagen4{
      
-        background: url("../img/ilustracion/tradicional/first.png") repeat-x center;
+        background: url("http://pre01.deviantart.net/6c8d/th/pre/i/2016/235/b/7/first_by_tolytomas-daf047m.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -354,7 +379,7 @@ transition: all 0.5s ease;
 
 .imagen5{
   
-        background: url("../img/ilustracion/tradicional/green.png") repeat-x center;
+        background: url("http://pre15.deviantart.net/f4da/th/pre/f/2016/235/0/b/green_by_tolytomas-daf048y.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -370,7 +395,7 @@ transition: all 0.5s ease;
 
 .imagen6{
     
-        background: url("../img/ilustracion/tradicional/totoro-watercolor.jpg") repeat-x left top;
+        background: url("http://pre00.deviantart.net/c792/th/pre/i/2016/235/5/9/totoro_watercolor_by_tolytomas-daf04bx.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -383,7 +408,7 @@ transition: all 0.5s ease;
 
 .imagen7{
   
-        background: url("../img/ilustracion/tradicional/obeja.jpg") repeat-x left top;
+        background: url("http://pre00.deviantart.net/01a5/th/pre/f/2016/235/1/d/obeja_by_tolytomas-daf049f.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -397,7 +422,7 @@ transition: all 0.5s ease;
 
 .imagen8{
   
-        background: url("../img/ilustracion/tradicional/tamago-girl.png") repeat-x left top;
+        background: url("http://orig10.deviantart.net/33e5/f/2016/235/4/5/tamago_girl_by_tolytomas-daf04ak.png") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -463,7 +488,7 @@ transition: all 0.5s ease;
 
 .imagen1b{
     
-       background: url("../img/ilustracion/digital/badgirl.jpg") repeat-x left top;
+       background: url("http://pre09.deviantart.net/db0b/th/pre/i/2016/088/e/c/star_fire_by_tolytomas-d9wzy26.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -480,7 +505,7 @@ transition: all 0.5s ease;
 
 .imagen2b{
      
- background: url("../img/ilustracion/digital/star-fire.jpg") repeat-x left top;
+ background: url("http://pre02.deviantart.net/dafe/th/pre/i/2016/154/9/a/badgirl__original_character__by_tolytomas-da4w1jo.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -493,7 +518,7 @@ transition: all 0.5s ease;
 .imagen3b{
      width: 29%;
      height: 473px;
-        background: url("../img/ilustracion/digital/chica-robot.jpg") repeat-x right top;
+        background: url("http://img12.deviantart.net/dbd3/i/2016/185/1/6/robogirl_by_tolytomas-da8q3zd.jpg") repeat-x right top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -509,7 +534,7 @@ transition: all 0.5s ease;
 
 .imagen4b{
      
-        background: url("../img/ilustracion/digital/desfio-loco.jpg") repeat-x center;
+        background: url("http://pre01.deviantart.net/f3ab/th/pre/i/2015/232/2/7/kimono_color_by_tolytomas-d96izid.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -522,7 +547,7 @@ transition: all 0.5s ease;
 
 .imagen5b{
   
-        background: url("../img/ilustracion/digital/girl-blue.jpg") repeat-x center;
+        background: url("http://pre03.deviantart.net/5966/th/pre/i/2016/235/0/5/girl_blue_by_tolytomas-daf05q2.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -538,7 +563,7 @@ transition: all 0.5s ease;
 
 .imagen6b{
     
-   background: url("../img/ilustracion/digital/red-woman.jpg") repeat-x center;
+   background: url("http://pre14.deviantart.net/5f3a/th/pre/i/2016/173/e/2/red_woman_by_tolytomas-da786l9.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -551,7 +576,7 @@ transition: all 0.5s ease;
 
 .imagen7b{
   
-        background: url("../img/ilustracion/digital/purple-girl.jpg") repeat-x center;
+        background: url("http://pre06.deviantart.net/7626/th/pre/i/2016/235/8/b/purple_girl_by_tolytomas-daf05o3.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -565,7 +590,7 @@ transition: all 0.5s ease;
 
 .imagen8b{
   
-        background: url("../img/ilustracion/digital/totoro.jpg") repeat-x left top;
+        background: url("http://pre01.deviantart.net/80c5/th/pre/i/2015/034/2/b/totoro_by_tolytomas-d8gm92n.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -578,7 +603,7 @@ transition: all 0.5s ease;
 
 .imagen9b{
   
-  background: url("../img/ilustracion/digital/kacchan.jpg") repeat-x center;
+  background: url("http://pre00.deviantart.net/9202/th/pre/i/2016/235/a/6/kacchan_by_tolytomas-daf059p.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -591,7 +616,7 @@ transition: all 0.5s ease;
 
    .imagen10b{
   
-  background: url("../img/ilustracion/digital/boobs-and-girl.jpg") repeat-x center;
+  background: url("http://pre11.deviantart.net/16bc/th/pre/i/2016/003/5/b/boobs_and_girl_by_tolytomas-d9mn1xo.jpg") repeat-x center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
