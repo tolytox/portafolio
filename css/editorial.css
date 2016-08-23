@@ -145,8 +145,8 @@ a{
 }
 
 #logo{
-     display: flex;
-      align-self: center;
+  display: flex;
+  align-self: center;
 }
 .logo{
      display: flex;
@@ -158,7 +158,6 @@ a{
    background-size: cover;
    width: 60px;
    height: 60px;
-
    
    -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
@@ -266,7 +265,7 @@ transition: all 0.5s ease;
 
 
 .imagen1{
-   background: url("../img/objetos/MantoD2.jpg") repeat-x left top;
+background-color: #D4A190;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -277,7 +276,7 @@ transition: all 0.5s ease;
 }
 
 .imagen2{
-   background: url("../img/objetos/teselar.jpg") repeat-x left top;
+   background-color: #D4A190;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;

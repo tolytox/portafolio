@@ -148,7 +148,10 @@ a{
      margin-top: 20px;
 }
 
-
+#logo{
+  display: flex;
+  align-self: center;
+}
 .logo{
      display: flex;
     align-self: center; 
@@ -230,12 +233,39 @@ transition: all 0.5s ease;
      margin-top: 10px;
      margin-left: 2.15%;
      display: flex;
-     align-self: flex-start;
+     
+     
      margin-bottom: 0px;
-
+     
       border-width: 0px 0px 1px 0px;
      border-color: #F1463D;
      border-style:solid;
+}
+.titulo1 h3{
+ margin-right: auto;
+ margin-left: auto;
+ line-height: 40px;
+}
+
+.titulo2{
+      width: 95.7%;
+     height: 35px;
+      /*background-color:#F1463D;*/
+     margin-top: 10px;
+     margin-left: 2.15%;
+     display: flex;
+     
+     
+     margin-bottom: 0px;
+     
+      border-width: 0px 0px 1px 0px;
+     border-color: #F1463D;
+     border-style:solid;
+}
+.titulo2 h3{
+ margin-right: auto;
+ margin-left: auto;
+ line-height: 40px;
 }
 
 .contenedor1{

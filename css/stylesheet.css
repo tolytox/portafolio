@@ -403,11 +403,12 @@ justify-content: center;
 .boton1{
      
 
-width: 12.8%;
+width: 3%;
 height: 30px;
 float: left;
-margin-right: 0.8%;
+margin-right: 0.2%;
 min-width: 126px;
+
 
 }
 
@@ -425,6 +426,12 @@ min-width: 126px;
     font-weight: 400;
      font-size: 15px;
    color: #F1463D; 
+
+   -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
     
 }
 
