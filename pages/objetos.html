@@ -8,6 +8,36 @@
 	<link type="text/css" rel="stylesheet" href="../css/objetos.css"/>
 	<meta charset="UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="../slider/styles.css" media="all" />
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- FlexSlider -->
+    <script type="text/javascript" src="../slider/js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+	
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+  });
+</script>
 		<script>
 	$(document).ready(function(){
     $(".logo").mouseenter(function(){
@@ -59,7 +89,28 @@
                     <p  class="parrafo"><span> Descripción</span> Consiste en el desarrollo de un cuerpo gráfico plegable, que venga a hablar de la obra de  la“Travesía Vodudahue”, el objeto es el entregable y punto final de la experiencia de la exposición de dicha travesía, realizada por el taller de 3° año de diseño gráfico de la PUCV.</p>
 		          </div>
 		          </div>
-		          <div class="imagen1"></div>
+		          <div class="imagen1">
+		          	
+		          	 <div class="slider_container">
+		<div class="flexslider">
+	      <ul class="slides">
+	    	<li>
+	    		<img src="../img/objetos/manto-regalos/manto1.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p>Find the perfect hairstyle a la Lauren Conrad for every type of festive fête.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<img src="../img/objetos/manto-regalos/maqueta1.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p>Primera maqueta del proceso de busqueda de la forma.</p></div>
+                </div>
+	    	</li>
+	    	
+	    </ul>
+	  </div>
+   </div>
+		          </div>
 	</div>
 	<hr></hr>
 	<div class="contenedor2">
@@ -74,7 +125,29 @@
                   <p> <span>Descripción:</span> Es un elemtendo soportante de contenido, que sera usado en la exposicion de la travesia vodudahue 2015, este elemnto hacia metafora a la obra realizada en dicha travesia, esta es compuesta por elementos discretos y teselares que giraban con el viento.</p> 
                   </div>
                   </div>
-                  <div class="imagen2"></div>
+                  <div class="imagen2">
+                  	
+<div class="slider_container">
+		<div class="flexslider">
+	      <ul class="slides">
+	    	<li>
+	    		<img src="../img/objetos/manto-regalos/manto1.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p>Find the perfect hairstyle a la Lauren Conrad for every type of festive fête.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<img src="../img/objetos/manto-regalos/maqueta1.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p>Primera maqueta del proceso de busqueda de la forma.</p></div>
+                </div>
+	    	</li>
+	    	
+	    </ul>
+	  </div>
+   </div>
+
+                  </div>
 		
 	</div>
 	<hr></hr>
@@ -91,11 +164,33 @@
 		          <p> <span>Descripción:</span>Estos cuerpos, son pequeñas ediciones de tres obras de ciudad abierto, la cuales tuvimos que observar (anotaciones y dibujos) y desde dichas obsevaciones, componer un objeto plegable que hablara en su lectura (despliegue) de la observacion.</p>
 		          </div>
 		          </div>
-		          <div class="imagen3"></div>
+		          <div class="imagen3">
+		          	
+<div class="slider_container">
+		<div class="flexslider">
+	      <ul class="slides">
+	    	<li>
+	    		<img src="../img/objetos/manto-regalos/manto1.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p>Find the perfect hairstyle a la Lauren Conrad for every type of festive fête.</p></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<img src="../img/objetos/manto-regalos/maqueta1.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p>Primera maqueta del proceso de busqueda de la forma.</p></div>
+                </div>
+	    	</li>
+	    	
+	    </ul>
+	  </div>
+   </div>
+		          	
+		          </div>
 
 		
 	</div>
-	<hr></hr>
+	
 <div class="parte_baja">
 <div class="botones">
 <div class="boton1"><p>sobre mi </p> </div>
@@ -108,9 +203,9 @@
 <p> Sigueme tambien en</p>
 
 <div class="botones2">
-<div class="red"></div> 
-<div class="red"></div>
-<div class="red"></div>	
+<a href="https://www.facebook.com/tolydraw1/?ref=aymt_homepage_panel"><div class="red", id="face"></div> </a>
+<a href="https://www.instagram.com/toly_dibujos/"><div class="red", id="insta"></div> </a>
+<a href="http://tolytomas.deviantart.com/"><div class="red", id="deviant"></div>	
 </div>
 </div>
 
