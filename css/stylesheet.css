@@ -159,26 +159,7 @@ h2 {
      text-align: left;
 }
 
-@media only screen and (max-width:  700px) {
-    /* For mobile phones: */
-    .name1,.name2,.name3{
-        width: 100%;
-        background-color: none;
-        font-size: 1.7ex;
 
-    }
-    .name1 p{
-    
-     text-align: center;
-}
-.name3 p{
-     
-     text-align: center;
-}
-    .banner{
-     flex-direction: column;
-    }
-}
 
 .logo{
  background: url("../img/logo.png") repeat-x left top;
@@ -551,3 +532,4 @@ transition: all 0.5s ease;
 transition: all 0.5s ease;
 
 }
+
