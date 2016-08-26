@@ -112,6 +112,34 @@ justify-content: center;
      margin-bottom:0.6%; 
 }
 
+.opcion1{
+  background: url("../img/objetos/MantoD2.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;}
+
+   .opcion2{
+  background: url("../img/home/editorial.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+   .opcion3{
+  background: url("../img/interaccion/Omega-cubix-14.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;}
+
+ .opcion5{
+  background: url("http://pre06.deviantart.net/7626/th/pre/i/2016/235/8/b/purple_girl_by_tolytomas-daf05o3.jpg") repeat-x left;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;}
 .texto1, .texto1b,.texto1c,.texto1d,.texto1e{
      width: 100%;
      height: 230px;
