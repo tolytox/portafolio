@@ -101,7 +101,7 @@ align-self: flex-start;
      width: 80%;
      height: 30px;
      margin-right: 0;
-     background-color: #000;
+    
      display: flex;
      justify-content: flex-start;
      align-self: center;
@@ -120,8 +120,8 @@ align-self: flex-start;
     
      width: 95.7%;
      height: 25%;
-     margin-top: 35px;
-     margin-bottom: 35px;
+     margin-top: 50px;
+     margin-bottom: 50px;
      /* background-color: #90C3D4;*/
      
      display: flex;
