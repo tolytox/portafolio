@@ -225,7 +225,7 @@ transition: all 0.5s ease;
 
 
 
-.contenedor1,.contenedor2,.contenedor3{
+.container1{
     
      width: 95.7%;
      height: 470px;
@@ -237,7 +237,7 @@ transition: all 0.5s ease;
      align-self: center;
      
      }
-.contenedor1{
+#contenedor1{
      margin-top: 40px;
 }
 
