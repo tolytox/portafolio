@@ -136,6 +136,7 @@ a{
      width: 46%;
      height: 100%;
      text-align: left;
+     order: 1;
      
 }
 
@@ -144,11 +145,24 @@ a{
      margin-top: 20px;
 }
 
+.logo1 hr{
+   width: 0;
+   height: 0;
+   border-color: rgba(244,71,41,0);
+   background-color: rgba(244,71,41,0);
+
+}
+
+.logo1{
+  order: 2;
+}
 #logo{
      display: flex;
       align-self: center;
+       order: 2;
 }
 .logo{
+     order: 2;
      display: flex;
     align-self: center; 
       background: url("../img/logo.png") repeat-x left top;
@@ -170,6 +184,7 @@ a{
      border-color:rgba(241,70,61,0);
 }
 .menu{
+     order: 3;
      width: 46%;
      height: 50%;
      margin-top: 20px;
@@ -225,7 +240,7 @@ transition: all 0.5s ease;
 
 
 
-.contenedor1,.contenedor2,.contenedor3{
+.container1{
     
      width: 95.7%;
      height: 470px;
@@ -237,7 +252,7 @@ transition: all 0.5s ease;
      align-self: center;
      
      }
-.contenedor1{
+#contenedor1{
      margin-top: 40px;
 }
 
@@ -245,7 +260,7 @@ transition: all 0.5s ease;
  display: flex;    
  flex-direction: column;
  width: 39.4%;
- height: 400px;
+ 
  margin-right: 3%;
 /*background-color: #D4A190;*/
      }
@@ -256,13 +271,17 @@ transition: all 0.5s ease;
      
      
 }
+
+.parrafo1,.parrafo2,.parrafo3{
+  order: 2;
+}
 .titulo1 h2{
     margin-top: -7px;
 }
 .parrafo{
      margin-bottom: 35px;
      margin-top: 5px;
-}
+     }
 
 
 .imagen1{
