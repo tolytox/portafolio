@@ -148,11 +148,24 @@ a{
      margin-top: 20px;
 }
 
+.logo1 hr{
+   width: 0;
+   height: 0;
+   border-color: rgba(244,71,41,0);
+   background-color: rgba(244,71,41,0);
+
+}
+
+.logo1{
+  order: 2;
+}
 #logo{
-  display: flex;
-  align-self: center;
+     display: flex;
+      align-self: center;
+       order: 2;
 }
 .logo{
+     order: 2;
      display: flex;
     align-self: center; 
       background: url("../img/logo.png") repeat-x left top;
@@ -162,6 +175,7 @@ a{
    background-size: cover;
    width: 60px;
    height: 60px;
+
    
    -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
@@ -173,6 +187,7 @@ a{
      border-color:rgba(241,70,61,0);
 }
 .menu{
+     order: 3;
      width: 46%;
      height: 50%;
      margin-top: 20px;
@@ -197,14 +212,14 @@ color: #ffffff;
       }
 
 
-.opcion a{
+.opcion p{
      font-weight: 400;
      font-size: 15px;
      margin-right: 20px;
      align-self: center;
 }
 
-.opcion p{
+.opcion a{
      font-weight: 400;
      font-size: 15px;
      margin-right: 20px;
@@ -225,6 +240,8 @@ color: #ffffff;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease; 
 }
+
+
 
 .titulo1{
       width: 95.7%;
@@ -762,6 +779,7 @@ justify-content: center;
      margin-right: 2%;
 
 }
+
 
 
 
