@@ -384,12 +384,13 @@ transition: all 0.5s ease;
 
 
 
-}
+
 
 .sigueme{
  
- width: 100%;
+ width: 40%;
  justify-content: center; 
+ background-color: blue;
 
 }
 
@@ -397,8 +398,9 @@ transition: all 0.5s ease;
 .botones2{
 display: flex;  
 flex-direction:row;
-width: 100%;
-justify-content: center;
+width: 800px;
+justify-content: space-between;
+background-color: red;
 
 
 } 
@@ -421,6 +423,7 @@ justify-content: center;
      border-radius: 50%;
      background: #ffffff m;
      margin-right: 2%;
+
 
 }
 
