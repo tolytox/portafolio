@@ -296,7 +296,7 @@ transition: all 0.5s ease;
 }
 
 .imagen2{
-   background: url("../img/objetos/teselar.jpg") repeat-x left top;
+   background: #ffffff;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -306,7 +306,7 @@ transition: all 0.5s ease;
 }
 
 .imagen3{
-   background: url("../img/objetos/plegable.jpg") repeat-x left top;
+   background: #ffffff ;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
