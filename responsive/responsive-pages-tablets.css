@@ -57,6 +57,18 @@
      opacity: 1;
 }
 
+.opcion a{
+     font-weight: 400;
+     font-size: 15px;
+     margin-right: 20px;
+     align-self: center;
+     pointer-events: none;
+}
+.link{
+  pointer-events: none;
+  cursor: default;
+}
+
 .container1{
     
      width: 95.7%;
