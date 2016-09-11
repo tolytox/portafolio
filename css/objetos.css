@@ -315,12 +315,6 @@ transition: all 0.5s ease;
    height: 400px;
 }
 
-
-
-
-
-
-
 .parte_baja{
 margin-left: auto;
 margin-right: auto;
@@ -334,8 +328,7 @@ text-align: center;
  border-width: 1px 0px 0px 0px;
      border-color: #F1463D;
      border-style:solid;
-  
-}
+  }
 
 
 .botones{
@@ -382,15 +375,11 @@ transition: all 0.5s ease;
     
 }
 
-
-
-
-
 .sigueme{
  
  width: 40%;
  justify-content: center; 
- background-color: blue;
+
 
 }
 
@@ -400,7 +389,7 @@ display: flex;
 flex-direction:row;
 width: 800px;
 justify-content: space-between;
-background-color: red;
+
 
 
 } 
