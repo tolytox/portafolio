@@ -119,6 +119,7 @@ align-self: flex-start;
 label img{
   width: auto;
   height: auto;
+  text-align: right;
 
 
 
@@ -143,8 +144,8 @@ width: 50px;
 height: 50px;
 margin: 0 auto;
 padding: 5px 20px;
-/*background: #F93A5A;*/
-background:blue;
+background: #F93A5A;
+
 cursor: pointer;
 position: absolute;
 right: 0;

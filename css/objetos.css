@@ -110,7 +110,12 @@ a{
  
 }
 
+img{
+max-width: 100%;
+min-height: 100%;
 
+
+}
 .container{
      width: 100%;
      margin-left:auto;
@@ -247,6 +252,8 @@ label img{
 
 
 
+
+
 input[id^="spoiler"]{
 display: none;
 
@@ -296,7 +303,7 @@ margin-top: 20px;
 .container1{
     
      width: 95.7%;
-     height: 470px;
+     height: 25%;
      margin-top: 70px;
      margin-bottom: 0px;
      /* background-color: #90C3D4;*/
@@ -308,6 +315,11 @@ margin-top: 20px;
 #contenedor1{
      margin-top: 40px;
 }
+
+
+
+
+
 
 .texto{
  display: flex;    
@@ -346,6 +358,7 @@ margin-top: 20px;
    width: 60%;
    height: 85%;
    display: flex;
+   justify-content: center;
 }
 
 .imagen2{
@@ -355,7 +368,7 @@ margin-top: 20px;
    -o-background-size: cover;
    background-size: cover;
    width: 60%;
-   height: 400px;
+   height: 85%;
 }
 
 .imagen3{
@@ -365,7 +378,7 @@ margin-top: 20px;
    -o-background-size: cover;
    background-size: cover;
    width: 60%;
-   height: 400px;
+   height: 85%;
 }
 
 .parte_baja{

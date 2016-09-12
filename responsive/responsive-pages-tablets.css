@@ -146,16 +146,20 @@ margin-top: 20px;
      margin-top: 15px;
 }
 
+
+
+
+
 .texto{
  display: flex;    
  flex-direction: column;
  justify-content: flex-start;
  width: 100%;
- height: 300px;
+ height: 50%;
  margin-right: 3%;
  margin-top: 10px;
  
-
+  
 
 margin-bottom: 10px;
      }
@@ -188,7 +192,7 @@ margin-bottom: 10px;
    -o-background-size: cover;
    background-size: cover;
    width: 100%;
-   height: 400px;
+   height: 85%;
    display: flex;
 
    margin-top: 5px;
@@ -201,7 +205,7 @@ margin-bottom: 10px;
    -o-background-size: cover;
    background-size: cover;
    width: 100%;
-   height: 400px;
+   height: 85%;
    
 }
 
@@ -212,7 +216,7 @@ margin-bottom: 10px;
    -o-background-size: cover;
    background-size: cover;
    width: 100%;
-   height: 400px;
+   height: 85%;
 }
 
 .parte_baja{
