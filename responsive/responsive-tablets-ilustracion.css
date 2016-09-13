@@ -94,6 +94,7 @@ input[id^="spoiler"]:checked ~ .spoiler {
 right: 20px;
 top: 50px;
 margin-top: 20px;
+cursor: pointer;
 }
 
 
