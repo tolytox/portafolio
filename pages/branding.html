@@ -6,8 +6,44 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,900" rel="stylesheet"> 
 
 	<link type="text/css" rel="stylesheet" href="../css/objetos.css"/>
+	  <link rel="stylesheet" media="screen" href="../responsive/responsive-pages.css"/>
+    <link rel="stylesheet" media="screen" href="../responsive/responsive-pages-tablets.css"/>
+
 	<meta charset="UTF-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="../slider/styles.css" media="all" />
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- FlexSlider -->
+    <script type="text/javascript" src="../slider/js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+	
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+  });
+
+
+
+</script>
 		<script>
 	$(document).ready(function(){
     $(".logo").mouseenter(function(){
@@ -20,6 +56,8 @@
     });
     
 });
+
+	
 	</script>
 
 	
@@ -31,18 +69,28 @@
 	
 	              <div class="ruta">
 	  	          <h2>Branding</h2>
-	  	          
-	  	          
-	              </div>
-	              <a href="../index.html", id="logo"><div class="logo"></div></a> 
+	  	          </div>
+
+	              <div class="logo1"> <hr id="l1"></hr> <a href="../index.html", id="logo"><div class="logo"></div></a> <hr id="l3"></hr> </div> 
+
 	              <div class="menu">
-                       <div class="opcion"><a href="../pages/objetos.html"><p>Objetos</p></a></div>
-		               <div class="opcion"><a href="../pages/editorial.html"><p>Editorial</p></a></div>
-		               <div class="opcion"><a href="../pages/interaccion.html"><p>Interacción</p></a></div>
-		               <div class="opcion"> <a href="../pages/branding.html"> <p>Branding</p> </a> </div>
-		               <div class="opcion"><a href="../pages/ilustracion.html"><p>ILustración</p></a></div>
+                       <div class="opcion"><a class="link" href="../pages/objetos.html"><p>Objetos</p></a></div>
+		               <div class="opcion"><a class="link" href="../pages/editorial.html"><p>Editorial</p></a></div>
+		               <div class="opcion"><a class="link" href="../pages/interaccion.html"><p>Interacción</p></a></div>
+		               <div class="opcion"> <a class="link" href="../pages/branding.html"> <p>Branding</p> </a> </div>
+		               <div class="opcion"><a class="link" href="../pages/ilustracion.html"><p>ILustración</p></a></div>
 	              </div>
 
+	              <input id="spoiler1" type="checkbox"> </input>
+	              <label for="spoiler1"><img src="../img/menu.png"></label>
+	              <div class="spoiler">
+                       <div class="opcion1"><a class="link" href="../pages/objetos.html"><p>Objetos</p></a></div>
+		               <div class="opcion1"><a class="link" href="../pages/editorial.html"><p>Editorial</p></a></div>
+		               <div class="opcion1"><a class="link" href="../pages/interaccion.html"><p>Interacción</p></a></div>
+		               <div class="opcion1"> <a class="link" href="../pages/branding.html"> <p>Branding</p> </a> </div>
+		               <div class="opcion1"><a class="link" href="../pages/ilustracion.html"><p>ILustración</p></a></div>
+	              </div>
+                 
 	 </div>  
 
 	
@@ -53,49 +101,54 @@
 		          </div>
 		          <div class="parrafo1">
 		          	 
-                    <p><span> Año</span> 2015</p>
-                   <p><span>Tipo</span> Academico, individual.</p>
-                   <p><span>Software aplicados</span>Illustrator, Processing.</p>
-                    <p  class="parrafo"><span> Descripción</span> Consiste en el desarrollo de un cuerpo gráfico plegable, que venga a hablar de la obra de  la“Travesía Vodudahue”, el objeto es el entregable y punto final de la experiencia de la exposición de dicha travesía, realizada por el taller de 3° año de diseño gráfico de la PUCV.</p>
+                    <p><span> Año</span> 2016</p>
+                   <p><span>Tipo</span> Privado, individual.</p>
+                   <p><span>Software aplicados</span>Illustrator.</p>
+                    <p  class="parrafo"><span> Descripción</span> Para el diseño del logo fueron necesarios implementar los conceptos de la bandera de alemania, dada la ascendencia de los propietarios y el origen del nombre de la empresa, la montaña que trae visiblemente el contexto en la que se ubican las cabañas (a los pies del volcán osorno) y por último la cabaña que se encuentra en medio de lo natural del volcán, y la tradición colona alemana.</p>
 		          </div>
 		          </div>
-		          <div class="imagen1"></div>
-	</div>
-	<hr></hr>
-	<div class="container1" id="contenedor2">
-	<div class="texto">
-	              <div class="titulo2">
-		          <h3>Objeto de lectura teselar</h3>	
-		          </div>
-		          <div class="parrafo2">
-		          <p> <span>Año:</span> 2015</p>
-                  <p> <span>Tipo:</span> Academico, grupal.</p>
-                  <p> <span>Software aplicados:</span> Illustrator.</p>
-                  <p> <span>Descripción:</span> Es un elemtendo soportante de contenido, que sera usado en la exposicion de la travesia vodudahue 2015, este elemnto hacia metafora a la obra realizada en dicha travesia, esta es compuesta por elementos discretos y teselares que giraban con el viento.</p> 
-                  </div>
-                  </div>
-                  <div class="imagen2"></div>
-		
-	</div>
-	<hr></hr>
-	<div class="container1" id="contenedor3">
-	<div class="texto">
-	<div class="titulo3">
+		          <div class="imagen1">
+		          	
+		          	 <div class="slider_container">
+		<div class="flexslider">
+	      <ul class="slides">
+	      <li>
+	    		<img src="../img/branding/l1.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p>Primera maqueta de los conceptos superpuestos.
+</p></div>
+                </div>
+	    	</li>
+	    	
+	    	<li>
+	    		<img src="../img/branding/l2.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p>Propuesta de trazos simplificados del gesto de una carpa (camping).</p></div>
+                </div>
+	    	</li>
 
-		          <h3>Cuerpos Gráficos: De la observación al pliegue</h3>	
+	    	<li>
+	    		<img src="../img/branding/l3.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p>Propuesta de logo compuesta de formas geométricas simples (cuadrado, círculo y triángulo), y una nueva propuesta de color. 
+</p></div>
+                </div>
+	    	</li>
+	    	
+	    	<li>
+	    		<img src="../img/branding/l4.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><p>Propuestas finales, vinculando los conceptos volca, bandera y cabaña.
+</p></div>
+                </div>
+	    	</li>
+</ul>
+	  </div>
+   </div>
 		          </div>
-		          <div class="parrafo3">
-		          <p> <span>Año:</span> 2015</p>
-		          <p> <span>Tipo:</span> Academico, individual.</p>
-		          <p> <span>Software aplicados:</span> Illustrator.</p>
-		          <p> <span>Descripción:</span>Estos cuerpos, son pequeñas ediciones de tres obras de ciudad abierto, la cuales tuvimos que observar (anotaciones y dibujos) y desde dichas obsevaciones, componer un objeto plegable que hablara en su lectura (despliegue) de la observacion.</p>
-		          </div>
-		          </div>
-		          <div class="imagen3"></div>
-
-		
 	</div>
 	<hr></hr>
+	
 <div class="parte_baja">
 <div class="botones">
 <div class="boton1"><p>sobre mi </p> </div>
@@ -108,9 +161,9 @@
 <p> Sigueme tambien en</p>
 
 <div class="botones2">
-<div class="red"></div> 
-<div class="red"></div>
-<div class="red"></div>	
+<a href="https://www.facebook.com/tolydraw1/?ref=aymt_homepage_panel"><div class="red", id="face"></div> </a>
+<a href="https://www.instagram.com/toly_dibujos/"><div class="red", id="insta"></div> </a>
+<a href="http://tolytomas.deviantart.com/"><div class="red", id="deviant"></div>	
 </div>
 </div>
 
