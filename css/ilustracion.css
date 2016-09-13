@@ -1,0 +1,926 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, 
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, 
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-weight: normal;
+     font-style: normal;
+     
+     
+     vertical-align: baseline
+}
+body {
+     line-height: 1;
+     background-color:#ffffff;
+
+}
+
+
+
+:focus {
+     outline: 0
+}
+
+ol, ul {
+     list-style: none
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+     content: ""
+}
+
+blockquote, q {
+     quotes: "" ""
+}
+
+input, textarea {
+     margin: 0;
+     padding: 0
+}
+
+hr {
+    
+     background-color: #F1463D;
+     height: 1px;
+     width: 100%;
+     margin-top: 0;
+     margin-bottom: 0;
+     border-color: #F1463D;
+     border: 0;
+}
+
+p{
+     font-weight: 400;
+     font-family: 'Roboto Slab', serif;
+     line-height: 2.7ex;
+     font-size: 1em;
+     color: #000000;
+     letter-spacing: 0.08ex;
+}
+
+h1{
+     font-family: 'Galada', cursive;
+     font-size: 3em;
+     color: #252525;
+      line-height: 1ex;
+}
+
+span{
+     font-weight: 700;
+      font-family: 'Roboto Slab', serif;
+     line-height: 1px;
+     font-size: 15px;
+     color: #000000;
+     letter-spacing: 0.09ex;
+     margin-right: 1%;
+     
+
+}
+h2{
+    
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+     font-size: 3em;
+     color: #ffffff;
+      line-height: 1ex;
+      text-align: left;
+}
+
+h3 {
+     font-weight: 400;
+     font-family: 'Roboto Slab', serif;
+     
+     line-height: 1em;
+     font-size: 25px;
+     color: #000000;
+     margin-top: 0;
+
+}
+
+a{
+ text-decoration: none;
+ color: #000000;
+ 
+}
+.container{
+     width: 100%;
+     margin-left:auto;
+     margin-right: auto;
+     margin-top: 0px;
+     display: flex;
+      flex-direction: column; 
+      align-content:center;
+
+}
+
+.head{
+    width: 100%;
+    height: 70px;
+    background-color: #F93A5A;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ruta{
+     display: flex;
+     width: 46%;
+     height: 100%;
+     text-align: left;
+     
+}
+
+.ruta h2{
+     margin-left: 5%;
+     margin-top: 20px;
+}
+
+.logo1 hr{
+   width: 0;
+   height: 0;
+   border-color: rgba(244,71,41,0);
+   background-color: rgba(244,71,41,0);
+
+}
+
+.logo1{
+  order: 2;
+}
+#logo{
+     display: flex;
+      align-self: center;
+       order: 2;
+}
+.logo{
+     order: 2;
+     display: flex;
+    align-self: center; 
+      background: url("../img/logo.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 60px;
+   height: 60px;
+
+   
+   -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #ffffff m;
+     margin-right: 0.6%;
+     border: 1px;
+     border-style: solid;
+     border-color:rgba(241,70,61,0);
+}
+.menu{
+     order: 3;
+     width: 46%;
+     height: 50%;
+     margin-top: 20px;
+     flex-direction: row;
+     display: flex;
+     justify-content: space-between;
+     /*background-color: #90C3D4;*/
+     }
+.menu p{
+color: #ffffff;
+     
+}
+.opcion{
+     width: 24%;
+     height: 30px;
+     margin-right: 0.6%;
+     float: left;
+     
+     display: flex;
+     
+     justify-content: center;
+      }
+
+
+.opcion p{
+     font-weight: 400;
+     font-size: 15px;
+     margin-right: 20px;
+     align-self: center;
+}
+
+.opcion a{
+     font-weight: 400;
+     font-size: 15px;
+     margin-right: 20px;
+     align-self: center;
+}
+
+.opcion p:hover{
+     font-weight: 400;
+     font-size: 15px;
+     margin-right: 20px;
+     align-self: center;
+     color: #252525;
+
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
+}
+
+
+
+.titulo1{
+      width: 95.7%;
+     height: 35px;
+      /*background-color:#F1463D;*/
+     margin-top: 10px;
+     margin-left: 2.15%;
+     display: flex;
+     
+     
+     margin-bottom: 0px;
+     
+      border-width: 0px 0px 1px 0px;
+     border-color: #F1463D;
+     border-style:solid;
+}
+.titulo1 h3{
+ margin-right: auto;
+ margin-left: auto;
+ line-height: 40px;
+}
+
+.titulo2{
+      width: 95.7%;
+     height: 35px;
+      /*background-color:#F1463D;*/
+     margin-top: 10px;
+     margin-left: 2.15%;
+     display: flex;
+     
+     
+     margin-bottom: 0px;
+     
+      border-width: 0px 0px 1px 0px;
+     border-color: #F1463D;
+     border-style:solid;
+}
+.titulo2 h3{
+ margin-right: auto;
+ margin-left: auto;
+ line-height: 40px;
+}
+
+label img{
+  width: 0px;
+  height: 0px;
+
+}
+
+
+
+
+
+input[id^="spoiler"]{
+display: none;
+
+}
+/* Estilo botón clicable */
+input[id^="spoiler"] + label {
+display: block;
+width: 80px;
+height: 0px;
+margin: 0 auto;
+padding: 5px 20px;
+background: #e1a;
+cursor: pointer;
+position: absolute;
+right: 0;
+justify-content: center;
+opacity: 0;
+
+}
+
+
+
+/* Estilo botón cuando su INPUT está seleccionado */
+input[id^="spoiler"]:checked + label  {
+color: #333;
+background: #ccc;
+height: 0px;
+
+flex-direction: column;
+opacity: 1;
+opacity: 0;
+}
+
+input[id^="spoiler"] ~ .spoiler {
+ 
+ opacity: 0;
+}
+
+input[id^="spoiler"]:checked ~ .spoiler {
+ opacity: 0;
+ position: absolute;
+right: 20px;
+top: 50px;
+margin-top: 20px;
+}
+
+.contenedor1{
+    /*background-color:#F1463D;*/
+    width:  95.7%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom:40px;
+ }
+
+.imagen1,.imagen2,.imagen3,.imagen4,.imagen5,.imagen6,.imagen7,.imagen8,.imagen9{
+  width: 29%;
+  height: 473px; 
+  margin-top: 30px; 
+  display: flex; 
+  float: left;
+
+  border-width: 1px 1px 1px 1px;
+     border-color: #F1463D;
+     border-style:solid; 
+}
+.recuadro{
+     background-color: rgba(255,255,255,0.8);
+     width: 100%;
+     height: 0px;
+     display: flex;
+     align-self: flex-start;
+     flex-direction: column;
+
+     padding-right: 10px;
+     padding-left: 10px;
+
+
+     -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
+}
+
+.recuadro h3{
+     margin-bottom: 10px;
+     margin-top: 10px;
+     color: rgba(0,0,0,0);
+
+       -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
+}
+
+
+.recuadro span{
+     margin-top: 0;
+     margin-bottom: 0;
+     color: rgba(0,0,0,0);
+     
+
+       -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
+}
+
+.recuadro p{
+     margin-top: 3px;
+     margin-bottom: 0;
+     color: rgba(0,0,0,0);
+
+       -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
+}
+
+
+.imagen1{
+    
+       background: url("http://pre05.deviantart.net/52fa/th/pre/i/2016/235/7/9/chica_de_rubia_by_tolytomas-daf045l.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+     background-color: #ffffff;
+     float: left;
+     display: flex;
+     order: 1;
+     
+     
+}
+
+
+.imagen2{
+     
+ background: url("http://pre14.deviantart.net/913d/th/pre/i/2016/235/a/b/star_galxy_by_tolytomas-daf04a5.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   order: 1;
+    
+    
+}
+
+.imagen3{
+     width: 29%;
+     height: 473px;
+        background: url("http://pre04.deviantart.net/e76e/th/pre/i/2016/235/b/1/demon_girl_by_tolytomas-daf046c.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+     
+     order: 1;
+     
+    
+     
+}
+
+.imagen4{
+     
+        background: url("http://pre01.deviantart.net/6c8d/th/pre/i/2016/235/b/7/first_by_tolytomas-daf047m.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+     order: 2;
+ 
+}
+
+.imagen5{
+  
+        background: url("http://pre15.deviantart.net/f4da/th/pre/f/2016/235/0/b/green_by_tolytomas-daf048y.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+     order: 2;
+     
+
+    
+     
+}
+
+.imagen6{
+    
+        background: url("http://pre00.deviantart.net/c792/th/pre/i/2016/235/5/9/totoro_watercolor_by_tolytomas-daf04bx.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+     order: 2;
+    
+}
+
+.imagen7{
+  
+        background: url("http://pre00.deviantart.net/01a5/th/pre/f/2016/235/1/d/obeja_by_tolytomas-daf049f.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+   
+    order: 3;
+
+}
+
+.imagen8{
+  
+        background: url("http://orig10.deviantart.net/33e5/f/2016/235/4/5/tamago_girl_by_tolytomas-daf04ak.png") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+  order: 3;
+
+   }
+
+.imagen9{
+  
+       /* background: url("../img/ilustracion/tradicional/tamago-girl.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;*/
+   
+     background-color: #ffffff;
+  order: 3;
+  border-width: 0px 0px 0px 0px;
+     border-color: #F1463D;
+     border-style:solid; 
+
+   }   
+
+.titulo2{
+      width: 95.7%;
+     height: 35px;
+      /*background-color:#F1463D;*/
+     margin-top: 40px;
+     margin-left: 2.15%;
+     display: flex;
+     align-self: flex-start;
+     margin-bottom: 0px;
+
+      border-width: 0px 0px 1px 0px;
+     border-color: #F1463D;
+     border-style:solid;
+}   
+
+
+.contenedor2{
+     display: flex;
+     margin-top: 40px;
+      width:  95.7%;
+    align-self: center;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom:40px;
+}
+
+.imagen1b,.imagen2b,.imagen3b,.imagen4b,.imagen5b,.imagen6b,.imagen7b,.imagen8b,.imagen9b,.imagen10b{
+  width: 29%;
+  height: 473px; 
+  margin-top: 30px; 
+  float: left;
+
+  border-width: 1px 1px 1px 1px;
+     border-color: #F1463D;
+     border-style:solid; 
+}
+
+
+.imagen1b{
+    
+       background: url("http://pre09.deviantart.net/db0b/th/pre/i/2016/088/e/c/star_fire_by_tolytomas-d9wzy26.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+     background-color: #ffffff;
+     float: left;
+     display: flex;
+     order: 1;
+     
+     
+}
+
+
+.imagen2b{
+     
+ background: url("http://pre02.deviantart.net/dafe/th/pre/i/2016/154/9/a/badgirl__original_character__by_tolytomas-da4w1jo.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   order: 1;
+    
+    
+}
+
+.imagen3b{
+     width: 29%;
+     height: 473px;
+        background: url("http://img12.deviantart.net/dbd3/i/2016/185/1/6/robogirl_by_tolytomas-da8q3zd.jpg") repeat-x right top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+     
+     order: 1;
+     
+    
+     
+}
+
+.imagen4b{
+     
+        background: url("http://pre01.deviantart.net/f3ab/th/pre/i/2015/232/2/7/kimono_color_by_tolytomas-d96izid.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+     order: 2;
+ 
+}
+
+.imagen5b{
+  
+        background: url("http://pre03.deviantart.net/5966/th/pre/i/2016/235/0/5/girl_blue_by_tolytomas-daf05q2.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+     order: 2;
+     
+
+    
+     
+}
+
+.imagen6b{
+    
+   background: url("http://pre14.deviantart.net/5f3a/th/pre/i/2016/173/e/2/red_woman_by_tolytomas-da786l9.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+     order: 2;
+    
+}
+
+.imagen7b{
+  
+        background: url("http://pre06.deviantart.net/7626/th/pre/i/2016/235/8/b/purple_girl_by_tolytomas-daf05o3.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+   
+    order: 3;
+
+}
+
+.imagen8b{
+  
+        background: url("http://pre01.deviantart.net/80c5/th/pre/i/2015/034/2/b/totoro_by_tolytomas-d8gm92n.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   
+     background-color: #ffffff;
+  order: 3;
+
+   }
+
+.imagen9b{
+  
+  background: url("http://pre00.deviantart.net/9202/th/pre/i/2016/235/a/6/kacchan_by_tolytomas-daf059p.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;*/
+   
+     background-color: #ffffff;
+  order: 3;
+
+   } 
+
+   .imagen10b{
+  
+  background: url("http://pre11.deviantart.net/16bc/th/pre/i/2016/003/5/b/boobs_and_girl_by_tolytomas-d9mn1xo.jpg") repeat-x center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;*/
+   
+     background-color: #ffffff;
+  order: 4;
+
+} 
+
+.parte_baja{
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height:150px;
+position: relative;
+display: flex;  
+flex-direction:column;
+text-align: center;
+
+ border-width: 1px 0px 0px 0px;
+     border-color: #F1463D;
+     border-style:solid;
+  
+}
+
+
+.botones{
+display: flex;  
+flex-direction:row;
+width: 100%;
+justify-content: center;
+
+}   
+
+
+.boton1{
+     
+
+width: 3%;
+height: 30px;
+float: left;
+margin-right: 0.2%;
+min-width: 126px;
+
+
+}
+
+.boton1 p{
+   line-height: 0;
+    font-weight: 400;
+     font-size: 15px;
+   color: #000000; 
+
+
+}
+
+.boton1 p:hover{
+  line-height: 0;
+    font-weight: 400;
+     font-size: 17px;
+   color: #F1463D; 
+
+   -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+    
+}
+
+
+
+}
+
+.sigueme{
+ 
+ width: 100%;
+ justify-content: center; 
+
+}
+
+
+.botones2{
+display: flex;  
+flex-direction:row;
+width: 100%;
+justify-content: center;
+
+
+} 
+
+.red{
+ width: 40px;
+     height: 40px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #ffffff m;
+     margin-right: 2%;
+}
+
+.botones2 a{
+     width: 40px;
+     height: 40px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #ffffff m;
+     margin-right: 2%;
+
+}
+
+
+
+
+#face{
+  background: url("../img/iconos/facerojo.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+#insta{
+  background: url("../img/iconos/instagramrojo.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+#deviant{
+  background: url("../img/iconos/deviantrojo.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+#face:hover{
+  background: url("../img/iconos/face.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+   -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+}
+
+#insta:hover{
+  background: url("../img/iconos/instagram.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+   -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+}
+
+#deviant:hover{
+  background: url("../img/iconos/deviant.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+   -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+}
+
+.gradiente{
+  width: 100%;
+  height: 300px;
+  background: red;
+  display: flex; /* For browsers that do not support gradients */
+  align-self: flex-end;
+  background: -webkit-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)); /*Standard*/
+
+}

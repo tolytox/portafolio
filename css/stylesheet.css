@@ -1,0 +1,557 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, 
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, 
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-weight: normal;
+     font-style: normal;
+     
+     
+     vertical-align: baseline
+}
+body {
+     line-height: 1;
+     background-color:#ffffff;
+
+}
+
+
+
+:focus {
+     outline: 0
+}
+
+ol, ul {
+     list-style: none
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+     content: ""
+}
+
+blockquote, q {
+     quotes: "" ""
+}
+
+input, textarea {
+     margin: 0;
+     padding: 0
+}
+
+hr {
+    
+     background-color: #F1463D;
+     height: 1px;
+     width: 29%;
+     border-color: #F1463D;
+     border: 0;
+}
+
+p{
+     font-weight: 300;
+     font-family: 'Roboto Slab', serif;
+     line-height: 2.7ex;
+     font-size: 13px;
+     color: #000000;
+     letter-spacing: 0.08ex;
+     
+     
+}
+h1{
+    
+    font-weight: 400;
+     font-family: 'Roboto Slab', serif;
+     font-size: 2.5em;
+     color: #ffffff;
+      line-height: 1ex;
+      text-align: left;
+}
+
+
+h2 {
+     font-weight: 400;
+     font-family: 'Roboto Slab', serif;
+     line-height: 3ex;
+     font-size: 30px;
+     color: #000000;
+     margin-top: 0;
+
+}
+
+a{
+ text-decoration: none;
+ color: #000000;
+ 
+}
+.container{
+     width: 100%;
+     margin-left:auto;
+     margin-right: auto;
+     display: flex;
+      flex-direction: column; 
+      align-content:center;
+
+}
+
+.banner{
+     width: 100%;
+     
+     background-color: #F93A5A;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+      flex-direction: row; 
+     justify-content: space-between; 
+       
+}
+.banner h1{
+     line-height: 80px;
+}
+
+
+.banner hr{
+ margin-top: 40px; 
+ border-color: #ffffff;
+ background-color: #ffffff;   
+}
+
+
+    
+
+.name1,.name2,.name3{
+     
+     float: left;
+     width: 40.7%;
+     height: 80px;
+     
+     margin-right: 5px;
+     margin-top: 0px;
+     text-align: center;
+     line-height: 100px;
+     min-width: 200px;
+ }
+
+      
+.name2{
+     width: 17.2%;
+     min-width: 200px;
+     display: flex;
+     align-self: center;
+     flex-direction: row;
+
+}
+.name1 h1{
+    
+     text-align: right;
+}
+.name3 h1{
+     
+     text-align: left;
+}
+
+
+
+.logo{
+ background: url("../img/logo.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 60px;
+   height: 60px;
+   margin-top: 10px;
+   -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     
+     margin-right: 0.6%;
+     border: 1px;
+     border-style: solid;
+     border-color:rgba(241,70,61,0);
+
+}
+
+.menu{
+width: 95.7%;
+margin-left: auto;
+margin-right: auto;
+position: relative;  
+flex-direction:column;
+justify-content: center;  
+}
+
+.menu p{
+     font-weight: 400;
+     font-size: 17px;
+     margin-right: 15px;
+     margin-left: 15px;
+}
+ 
+.opcion1,.opcion2,.opcion3,.opcion4,.opcion5{
+     float: left;
+     width: 19.4%;
+     height: 500px;
+     background-color: #90C3D4;
+     margin-right: 0.6%;
+     margin-top: 0.6%;
+     text-align: center;
+     min-width: 200px;
+     margin-bottom:0.6%; 
+
+
+  -webkit-filter: grayscale(0%);
+-moz-filter: grayscale(0%);
+-ms-filter: grayscale(0%);
+-o-filter: grayscale(0%);
+filter: none;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.opcion1{
+  background: url("../img/home/objetos.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   /* IE4-8 and 9 */
+}  
+.opcion1:hover{
+   filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(70%);
+-moz-filter: grayscale(70%);
+-ms-filter: grayscale(70%);
+-o-filter: grayscale(70%);
+filter: grayscale(70%); /* Para cuando es estándar funcione en todos */
+filter: Gray()
+
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+     
+}
+
+.opcion2{
+  background: url("../img/home/editorial.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+} 
+
+.opcion2:hover{
+   filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(70%);
+-moz-filter: grayscale(70%);
+-ms-filter: grayscale(70%);
+-o-filter: grayscale(70%);
+filter: grayscale(70%); /* Para cuando es estándar funcione en todos */
+filter: Gray()
+
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;   
+}
+.opcion3{
+  background: url("../img/home/interaccion.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+} 
+.opcion3:hover{
+   filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(70%);
+-moz-filter: grayscale(70%);
+-ms-filter: grayscale(70%);
+-o-filter: grayscale(70%);
+filter: grayscale(70%); /* Para cuando es estándar funcione en todos */
+filter: Gray()
+
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;   
+}
+
+.opcion4{
+  background: url("../img/home/branding.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+} 
+.opcion4:hover{
+   filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(70%);
+-moz-filter: grayscale(70%);
+-ms-filter: grayscale(70%);
+-o-filter: grayscale(70%);
+filter: grayscale(70%); /* Para cuando es estándar funcione en todos */
+filter: Gray()
+
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;   
+}
+
+
+.opcion5{
+  background: url("../img/home/ilustracion.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+} 
+.opcion5:hover{
+   filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(70%);
+-moz-filter: grayscale(70%);
+-ms-filter: grayscale(70%);
+-o-filter: grayscale(70%);
+filter: grayscale(70%); /* Para cuando es estándar funcione en todos */
+filter: Gray()
+
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;   
+}
+
+.recuadro1, .recuadro2, .recuadro3, .recuadro4, .recuadro5{
+     width: 100%;
+     height: 100%; 
+     background-color:rgba(255,255,255,0);
+     display: flex;
+}
+
+
+.texto1, .texto1b,.texto1c,.texto1d,.texto1e{
+     width: 100%;
+     height: 45px;
+     background-color:rgba(255,255,255,0.8); 
+     margin-top: 40%;
+     -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
+     
+}
+
+.texto2,.texto3,.texto4,.texto5,.texto6 {
+color:rgba(0,0,0,0);
+margin-top: 0%;    
+
+}
+
+.parte_baja{
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height:150px;
+position: relative;
+display: flex;  
+flex-direction:column;
+text-align: center;
+
+ border-width: 1px 0px 0px 0px;
+     border-color: #F1463D;
+     border-style:solid;
+  
+}
+
+
+.botones{
+display: flex;  
+flex-direction:row;
+width: 100%;
+justify-content: center;
+
+}   
+
+
+.boton1{
+     
+
+width: 3%;
+height: 30px;
+float: left;
+margin-right: 0.2%;
+min-width: 126px;
+
+
+}
+
+.boton1 p{
+   line-height: 0;
+    font-weight: 400;
+     font-size: 15px;
+   color: #000000; 
+
+
+}
+
+.boton1 p:hover{
+  line-height: 0;
+    font-weight: 400;
+     font-size: 17px;
+   color: #F1463D; 
+
+   -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+    
+}
+
+
+
+}
+
+.sigueme{
+ 
+ width: 100%;
+ justify-content: center; 
+
+}
+
+
+.botones2{
+display: flex;  
+flex-direction:row;
+width: 100%;
+justify-content: center;
+
+
+} 
+
+.red{
+ width: 40px;
+     height: 40px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #ffffff m;
+     margin-right: 2%;
+}
+
+.botones2 a{
+     width: 40px;
+     height: 40px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #ffffff m;
+     margin-right: 2%;
+
+}
+
+
+
+#face{
+  background: url("../img/iconos/facerojo.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+#insta{
+  background: url("../img/iconos/instagramrojo.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+#deviant{
+  background: url("../img/iconos/deviantrojo.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+#face:hover{
+  background: url("../img/iconos/face.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+   -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+}
+
+#insta:hover{
+  background: url("../img/iconos/instagram.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+   -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+}
+
+#deviant:hover{
+  background: url("../img/iconos/deviant.png") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+   -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+}
+
