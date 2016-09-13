@@ -107,15 +107,11 @@ h3 {
 
 a{
  text-decoration: none;
+ color: #000000;
  
 }
 
-img{
-max-width: 100%;
-min-height: 100%;
 
-
-}
 .container{
      width: 100%;
      margin-left:auto;
@@ -244,11 +240,6 @@ transition: all 0.5s ease;
 }
 
 
-label img{
-  width: 0px;
-  height: 0px;
-
-}
 
 
 
@@ -357,8 +348,21 @@ margin-top: 20px;
    background-size: cover;
    width: 60%;
    height: 85%;
+   min-height: 400px;
    display: flex;
    justify-content: center;
+}
+
+iframe {
+min-height: 400px;
+  
+}
+
+.imagen1 img {
+max-width: 100%;
+min-width: 400px;
+
+height: 400px;
 }
 
 .imagen2{
