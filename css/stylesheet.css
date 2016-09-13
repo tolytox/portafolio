@@ -295,6 +295,32 @@ filter: Gray()
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;   
 }
+
+.opcion4{
+  background: url("../img/home/branding.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+} 
+.opcion4:hover{
+   filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+-webkit-filter: grayscale(70%);
+-moz-filter: grayscale(70%);
+-ms-filter: grayscale(70%);
+-o-filter: grayscale(70%);
+filter: grayscale(70%); /* Para cuando es estándar funcione en todos */
+filter: Gray()
+
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;   
+}
+
+
 .opcion5{
   background: url("../img/home/ilustracion.jpg") repeat-x left top;
   -webkit-background-size: cover;
